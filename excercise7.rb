@@ -15,3 +15,4 @@ students[:cohort4] = 43
 display_students_in_diff_cohorts(students)
 
 #Excercise 7 Question 3
+puts "Cohort names: #{students.keys}"
