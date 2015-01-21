@@ -28,3 +28,7 @@ puts "The second item on the list is: #{grocery_list[1]}"
 
 #Exercise 6 Question 6
 display_all_items(grocery_list.sort)
+
+#Exercise 6 Question 7
+grocery_list.delete("salmon")
+display_all_items(grocery_list)
