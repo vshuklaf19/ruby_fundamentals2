@@ -24,3 +24,14 @@ display_students_in_diff_cohorts(students)
 #Excercise 7 Question 5
 students.delete(:cohort2)
 display_students_in_diff_cohorts(students)
+
+#Excercise 7 Question 6
+total=0
+students.each do |key,value|
+	total+=	students[key]
+end
+puts "The total number of students: #{total}"
+
+
+
+
