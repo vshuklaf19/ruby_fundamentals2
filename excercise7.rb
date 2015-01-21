@@ -22,3 +22,5 @@ students.each {|key,value| students[key] = (1.05*value).to_i}
 display_students_in_diff_cohorts(students)
 
 #Excercise 7 Question 5
+students.delete(:cohort2)
+display_students_in_diff_cohorts(students)
