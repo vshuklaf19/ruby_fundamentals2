@@ -25,3 +25,6 @@ end
 
 #Exercise 6 Question 5
 puts "The second item on the list is: #{grocery_list[1]}"
+
+#Exercise 6 Question 6
+display_all_items(grocery_list.sort)
